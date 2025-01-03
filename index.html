@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<style>
+    body {
+        background-image: url(ashoka.jpg); /* Replace with your desired background image URL */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header, section, footer {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    header:hover, section:hover, footer:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    section {
+        padding: 15px;
+        margin: 60px 0; /* Further increased margin for more spacing */
+    }
+
+    /* Unique shapes for each section */
+    section:nth-of-type(9) {
+        background-color: #f0f4f9;
+        clip-path: ellipse(80% 95% at 50% 50%);
+        padding: 25px; /* Adjusted padding for better spacing */
+    }
+
+    section:nth-of-type(10) {
+        background-color: #e2f7df;
+        border-radius: 15px;
+        padding: 25px; /* Adjusted padding for better spacing */
+    }
+
+    /* Ensure text fits for larger screens */
+    @media (min-width: 1200px) {
+        section:nth-of-type(9) {
+            clip-path: ellipse(85% 100% at 50% 50%);
+            padding: 30px; /* Adjusted padding for larger screens */
+        }
+
+        section:nth-of-type(10) {
+            padding: 30px; /* Adjusted padding for larger screens */
+            margin: 70px 0; /* Further increased margin for larger screens */
+        }
+    }
+
+    footer {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 40px; /* Added more spacing above the footer */
+        border-radius: 10px;
+    }
+
+    marquee {
+        background-color: #ffdfba;
+        padding: 10px;
+        color: #d62828;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: red;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+
+
+
+
+
+    <!-- Blinking marquee at the top -->
+    <marquee behavior="scroll" direction="left" style="background-color: #ffdfba; padding: 10px; color: #d62828;">
+        🌟 Welcome to Mohamed Hashi's CV! 🌟
+    </marquee>
+
+    <header style="background-color: #4CAF50; color: white; padding: 10px; text-align: center; border-radius: 100px; width: 80%; margin: 10px auto;">
+        <h1 style="font-size: 1.0em;">Mohamed Hashi</h1>
+        <img src="Hashi.jpeg" alt="Mohamed Hashi's Picture" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 5px; border-radius: 50%;">
+        <p style="font-size: 0.9em;">Current Country: India | Current City: Sonipat | Country of Origin: Somaliland | City of Origin: Hargeisa</p>
+        <p style="font-size: 0.9em;">Email: <a href="mailto:mohamed.hashi@alumni.ashoka.edu.in" style="color: white;">mohamed.hashi@alumni.ashoka.edu.in</a> | Phone: 7494991788</p>
+        <p style="font-size: 0.9em;"><span style="color: red; text-decoration: underline;">Portfolio: <a href="https://mhashi7788.my.canva.site/" style="color: red;">Mohamed’s Portfolio</a></span></p>
+    </header>
+    
+
+    <!-- Section decorations with stickers -->
+    <section style="background-color: #e2e3e5; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Summary 🌱</h2>
+        <p>I am a student at Ashoka University in India, majoring in Sociology and Anthropology with a double minor in Computer Science and Entrepreneurship. My academic journey has equipped me with a strong foundation in coding and programming skills, along with a deep understanding of computer-related concepts. Additionally, my studies in sociology and anthropology have honed my writing and research skills, which are instrumental in many career paths.</p>
+    </section>
+
+    <section style="background-color: #dfe7fd; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Education 🎓</h2>
+        <ul>
+            <li>Abaarso School: Completed High School Diploma in Somaliland (2021).</li>
+            <li>Ashoka University: Completed a Bachelor’s degree in Sociology and Anthropology with a minor in Computer Science and currently pursuing a minor in Entrepreneurship.</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #f9f1f0; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Awards and Recognitions 🏆</h2>
+        <ul>
+            <li>Best Counselor, Young Scholars Program, Ashoka University, India – July 2024</li>
+            <li>Tenacity Award, Abaarso School, Somaliland – June 2017</li>
+            <li>Best Tutor, Hargeisa Orphanage Program, Somaliland – June 2018</li>
+            <li>Best Community Service Tutor, Abaarso Village Tutoring Program, Somaliland – 2018, 2019</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #dff2e1; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Community Service Participation 🤝</h2>
+        <ul>
+            <li>Abaarso Village Primary Tutoring Program - Math and English Tutor (2017, 2019)</li>
+            <li>Hargeisa Orphanage Program - Math and English Tutor (1 year)</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #fcf8e8; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Certified Summer Program 🌞</h2>
+        <ul>
+            <li>Babson Summer Program - Studied the Introduction to Entrepreneurship at Babson College (2020).</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #e9f7fc; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Certified Online Programming Courses 💻</h2>
+        <ul>
+            <li>Introduction to Python – Dataquest (Completed with Certificate)</li>
+            <li>Python Basics for Data Science – edX (Completed with Certificate)</li>
+            <li>Full-Stack Web Developer course – Udemy (Completed with Certificate)</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #ffefdb; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Internships 🏫</h2>
+        <ul>
+            <li><strong>Technology and Event Manager, Ashoka International Student Association Committee</strong> - Ashoka University, India (September 2023 – August 2024)</li>
+            <li><strong>Travel and Logistics Counselor, Young Scholars Program</strong> - Ashoka University, India (June 2024 – July 2024)</li>
+            <li><strong>Data Management and Facility Manager</strong> - Abaarso School, Somaliland (September 2021 – July 2022)</li>
+            <li><strong>Remote Externship</strong> - National Geographic Society + The Nature Conservancy, Online (2024)</li>
+        </ul>
+        <p>Details of other internships can be found on.<span style="color: red; text-decoration: underline;">Portfolio: <a href="https://mhashi7788.my.canva.site/" style="color: red;">Mohamed’s Portfolio</a></span></p>
+    </section>
+
+    <section style="background-color: #e3f8e0; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Languages 🌍</h2>
+        <ul>
+            <li>Somali (Native)</li>
+            <li>English (Advanced, Oral and Written Fluency)</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #f0f4f9; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Personal Interests ⚽</h2>
+        <ul>
+            <li>CrossFit</li>
+            <li>Football</li>
+            <li>Volleyball</li>
+            <li>Chess</li>
+            <li>Billiards</li>
+            <li>Coding</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #e2f7df; padding: 15px; margin: 10px 0; border-left: 5px solid #4CAF50; border-radius: 5px;">
+        <h2>Skills 🛠️</h2>
+        <ul>
+            <li>Strategic resource management</li>
+            <li>Communication</li>
+            <li>Analytical problem-solving</li>
+            <li>Coding and programming</li>
+            <li>Teaching</li>
+            <li>Excel and spreadsheet</li>
+            <Li>Research</Li>
+        </ul>
+    </section>
+
+    <footer style="background-color: #4CAF50; color: white; padding: 10px; text-align: center; margin-top: 20px; border-radius: 10px;">
+        <p>© 2024 Mohamed Hashi. All Rights Reserved.</p>
+        <!-- Adding another marquee for a footer effect -->
+        <marquee behavior="alternate" direction="right" style="background-color: #ffdfba; color: #d62828; padding: 5px;">
+            Thank you for visiting! 😊
+        </marquee>
+    </footer>
+</body>
+
+</html>
